@@ -30,6 +30,7 @@ struct Images: Codable {
     let large: String
 }
 
+<<<<<<< HEAD
 class API {
 
 //    override func viewDidLoad() {
@@ -38,6 +39,16 @@ class API {
 //    }
     
     static func makeRequest() {
+=======
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        makeRequest()
+    }
+    
+    private func makeRequest() {
+>>>>>>> origin/main
         let url = URL(string: "https://api.pokemontcg.io/v2/cards")!
         
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
@@ -59,6 +70,7 @@ class API {
     }
 
 
+<<<<<<< HEAD
 
 }
 
@@ -102,3 +114,7 @@ class ViewController: UIViewController {
         }.resume()
     }
 }
+=======
+}
+
+>>>>>>> origin/main
