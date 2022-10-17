@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "halfcut-pokemon-WC_Qjaryv4Y-unsplash.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
